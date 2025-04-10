@@ -1,0 +1,89 @@
+.personal-page {
+  background-color: #fdfbdc;
+  font-family: 'Times New Roman';
+}
+
+.professional-page {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.personal-title {
+  text-align: center;
+  color: rgb(172, 60, 60);
+  padding-top: 15px;
+}
+
+.personal-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 70px;
+}
+
+.left {
+  flex: 1;
+  padding-left: 70px;
+  padding-right: 60px;
+}
+
+.left h2 {
+  text-align: center;
+  color: rgb(172, 60, 60);
+}
+
+.right img {
+  width: 520px;
+  height: 350px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 65px;
+}
+
+.button-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+  gap: 30px;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #1e1919;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.profile-photo {
+  height: 500px;
+  width: 370px;
+  border-radius: 20px;
+  margin-left: 0;
+  border: 1px solid black;
+  margin-top: 70px
+}
+
+.professional-page h1 {
+  text-align: center;
+  color: black;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
