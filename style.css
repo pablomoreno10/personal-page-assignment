@@ -4,7 +4,7 @@
 }
 
 .professional-page {
-  background-image: url("background1.jpg");
+  background-image: url("images/background1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +90,7 @@ marquee {
   border: 2px dotted black;
   border-radius: 10px;
   padding: 5px;
-  background-image: url(background-box.jpg);
+  background-image: url('images/background-box.jpg');
 }
 
 .box-pro {
